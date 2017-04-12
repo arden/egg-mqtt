@@ -1,5 +1,7 @@
 'use strict';
 
+const mqtt = require('./lib/mqtt');
+
 module.exports = agent => {
-  console.log('agent.config.env =', agent.config.env);
+  if (agent.config.mqtt.agent) mqtt(agent);
 };

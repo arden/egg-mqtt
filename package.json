@@ -10,7 +10,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "mqtt": "^2.6.2"
+  },
   "devDependencies": {
     "autod": "^2.7.1",
     "egg": "^1.0.0",
