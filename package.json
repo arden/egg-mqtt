@@ -1,6 +1,6 @@
 {
   "name": "egg-mqtt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mqtt plugin",
   "eggPlugin": {
     "name": "mqtt"
